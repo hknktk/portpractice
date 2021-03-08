@@ -42,7 +42,7 @@ body header section {
   top: 0;
   left: 0;
   width: 100%;
-  height: 400px;
+  height: 350px;
   z-index: 1;
   pointer-events: none;
 }
@@ -52,7 +52,7 @@ body header section .side {
   top: 0;
   left: 0;
   width: 100%;
-  height: 400px;
+  height: 350px;
   background: url(./img/back5.png) center center;
   background-size: cover;
 }
@@ -71,7 +71,7 @@ body header .down {
   width: 70%;
   position: absolute;
   left: 15%;
-  bottom: 10%;
+  bottom: 5%;
   text-align: center;
 }
 
