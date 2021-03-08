@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Shippori Mincho B1', serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 200vh;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  background-color: #0c074b;
+}
+
+body .english {
+  font-style: italic;
+}
+
+body header {
+  height: 100vh;
+  margin-bottom: 50vh;
+}
+
+body header h1 {
+  width: 90%;
+  font-size: 3rem;
+  position: fixed;
+  left: 5%;
+  top: 5%;
+  color: #fff;
+  z-index: -1;
+  padding: 1rem;
+}
+
+body header section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+body header section .side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background: url(./img/back5.png) center center;
+  background-size: cover;
+}
+
+body header section #side1 {
+  -webkit-clip-path: polygon(0% 0%, 38% 0%, 17% 42%, 45% 66%, 20% 84%, 43% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 38% 0%, 17% 42%, 45% 66%, 20% 84%, 43% 100%, 0% 100%);
+}
+
+body header section #side2 {
+  -webkit-clip-path: polygon(100% 0, 38% 0%, 17% 42%, 45% 66%, 20% 84%, 43% 100%, 100% 100%);
+          clip-path: polygon(100% 0, 38% 0%, 17% 42%, 45% 66%, 20% 84%, 43% 100%, 100% 100%);
+}
+
+body header .down {
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
+  text-align: center;
+}
+
+body header .down #down {
+  font-size: 3rem;
+  opacity: 1;
+  color: #c41a30;
+}
+
+body main {
+  min-height: 200vh;
+  z-index: 100;
+}
+
+body main .container {
+  width: 100%;
+  min-height: 200vh;
+  margin: 0 auto;
+}
+
+body main .container .block {
+  width: 95%;
+  min-height: 50vh;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 50vh;
+  padding: 1rem;
+}
+
+body main .container .block h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #c41a30;
+  margin-bottom: 1rem;
+}
+
+body main .container .block img {
+  width: 80%;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+body main .container .block ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+body main .container .block ul li {
+  margin-bottom: 2rem;
+}
+
+body main .container .block ul li h3 {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+body main .container .block ul li p {
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=style.css.map */
